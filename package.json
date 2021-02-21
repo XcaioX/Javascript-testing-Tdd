@@ -1,0 +1,34 @@
+{
+  "name": "javascript-testing-tdd",
+  "version": "1.0.0",
+  "description": "Learning Purpose",
+  "main": "src/api.js",
+  "scripts": {
+    "start": "node src/api.js",
+    "test:dev": "NODE_ENV=test npx mocha -w --parallel **/**/*.test.js",
+    "test": "NODE_ENV=test npx mocha --parallel **/**/*.test.js",
+    "test:cov": "npx nyc npx mocha --parallel **/**/*.test.js",
+    "seed": "node ./seed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XcaioX/Javascript-Testing-Tdd.git"
+  },
+  "keywords": [
+    "js-test"
+  ],
+  "author": "XcaioX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XcaioX/Javascript-Testing-Tdd/issues"
+  },
+  "homepage": "https://github.com/XcaioX/Javascript-Testing-Tdd#readme",
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "faker": "^5.4.0",
+    "mocha": "^8.3.0",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.4",
+    "supertest": "^6.1.3"
+  }
+}
