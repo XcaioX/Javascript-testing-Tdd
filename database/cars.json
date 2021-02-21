@@ -1,29 +1,22 @@
 [
   {
-    "id": "6a7bd8cf-f601-4c06-aa67-d0004df07530",
-    "name": "Silverado",
+    "id": "38a1b333-16cf-46ed-a3a5-8765f340349b",
+    "name": "Sentra",
     "releaseYear": 2020,
     "available": true,
     "gasAvailable": true
   },
   {
-    "id": "7bca82f8-3208-4080-bdb5-d53ca84fd037",
-    "name": "2",
-    "releaseYear": 2020,
-    "available": true,
-    "gasAvailable": true
-  },
-  {
-    "id": "25308063-2dfc-4ad1-bcdf-703f2a11da19",
-    "name": "Ranchero",
-    "releaseYear": 2020,
-    "available": true,
-    "gasAvailable": true
-  },
-  {
-    "id": "ca06ebb3-ac0a-4363-b30e-af544695c674",
-    "name": "Prius",
+    "id": "36c860c7-3edd-4854-acde-fee82bb3308e",
+    "name": "Golf",
     "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "46720773-fdf7-4f7c-90be-3a7eb1c53954",
+    "name": "CTS",
+    "releaseYear": 2020,
     "available": true,
     "gasAvailable": true
   }

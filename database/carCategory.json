@@ -1,11 +1,10 @@
 {
-  "id": "224253b8-c14e-4f29-85be-3c16346658ec",
-  "name": "Hatchback",
+  "id": "5df733f8-a3fe-4c4f-841e-df9678b28700",
+  "name": "Minivan",
   "carIds": [
-    "6a7bd8cf-f601-4c06-aa67-d0004df07530",
-    "7bca82f8-3208-4080-bdb5-d53ca84fd037",
-    "25308063-2dfc-4ad1-bcdf-703f2a11da19",
-    "ca06ebb3-ac0a-4363-b30e-af544695c674"
+    "38a1b333-16cf-46ed-a3a5-8765f340349b",
+    "36c860c7-3edd-4854-acde-fee82bb3308e",
+    "46720773-fdf7-4f7c-90be-3a7eb1c53954"
   ],
-  "price": "50.44"
+  "price": "72.93"
 }

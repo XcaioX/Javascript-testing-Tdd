@@ -18,7 +18,7 @@ const carCategory = new CarCategory({
 
 const cars = []
 const customers = []
-for (let i = 0; i <= ITEMS_AMOUNT; i++) {
+for (let i = 1; i <= ITEMS_AMOUNT; i++) {
     const car = new Car({
         id: faker.random.uuid(),
         name: faker.vehicle.model(),
