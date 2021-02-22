@@ -1,10 +1,12 @@
-{
-  "id": "5df733f8-a3fe-4c4f-841e-df9678b28700",
-  "name": "Minivan",
-  "carIds": [
-    "38a1b333-16cf-46ed-a3a5-8765f340349b",
-    "36c860c7-3edd-4854-acde-fee82bb3308e",
-    "46720773-fdf7-4f7c-90be-3a7eb1c53954"
-  ],
-  "price": "72.93"
-}
+[
+  {
+    "id": "5df733f8-a3fe-4c4f-841e-df9678b28700",
+    "name": "Minivan",
+    "carIds": [
+      "38a1b333-16cf-46ed-a3a5-8765f340349b",
+      "36c860c7-3edd-4854-acde-fee82bb3308e",
+      "46720773-fdf7-4f7c-90be-3a7eb1c53954"
+    ],
+    "price": "72.93"
+  }
+]
