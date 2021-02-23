@@ -6,7 +6,7 @@ class CarService {
     constructor({ cars }) {
         this.carRepository = new BaseRepository({ file: cars })
         this.taxesBasedOnAge = Tax.taxesBasedOnAge
-        this.currentFormat = new Intl.NumberFormat('pt-br', {
+        this.currencyFormat = new Intl.NumberFormat('pt-br', {
             style: 'currency',
             currency: 'BRL'
         })
@@ -34,7 +34,7 @@ class CarService {
 
         const { then: tax } = this.taxesBasedOnAge.find(tax => age >= tax.from && age <= tax.to)
         const value = ((tax * price) * numberOfDays)
-        return this.currentFormat.format(value)
+        return this.currencyFormat.format(value)
     }
 
     async rent(customer, carCategory, numberOfDays) {

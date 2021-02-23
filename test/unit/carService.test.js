@@ -84,7 +84,7 @@ describe('CarService Suit Test', () => {
         ).get(() => [{ from: 40, to: 50, then: 1.3 }])
 
         const result = await carService.calculateFinalPrice(carCategory, customer, numberOfDays)
-        const expected = carService.currentFormat.format(244.4)
+        const expected = carService.currencyFormat.format(244.4)
 
         expect(result).to.be.deep.equal(expected)
     })
@@ -111,7 +111,7 @@ describe('CarService Suit Test', () => {
             carService.carRepository.find.name
         ).resolves(car)
 
-        const expectAmount = carService.currentFormat.format(244.40)
+        const expectAmount = carService.currencyFormat.format(244.40)
         const result = await carService.rent(customer, carCategory, numberOfDays)
 
         const expected = new Transaction({
